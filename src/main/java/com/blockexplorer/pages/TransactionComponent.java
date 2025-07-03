@@ -9,11 +9,9 @@ import java.util.List;
 public class TransactionComponent {
   private WebDriver driver;
 
-  // Corrected locator for transaction inputs (vins)
   @FindBy(css = "div.vins div.vin")
   private List<WebElement> inputs;
 
-  // Corrected locator for transaction outputs (vouts)
   @FindBy(css = "div.vouts div.vout")
   private List<WebElement> outputs;
 
