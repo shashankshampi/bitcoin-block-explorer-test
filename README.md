@@ -4,7 +4,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/shashankshampi/bitcoin-block-explorer-test">
-    <img src="files/bitgo.jpg" alt="Logo" width="100" height="100">
+    <img src="files/bitgo.jpg" alt="Logo" width="300" height="200">
   </a>
 
 <h3 align="center">Blockstream Explorer UI Automation</h3>
