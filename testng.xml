@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Block Explorer Test Suite">
+  <test name="Block Explorer Tests">
+    <classes>
+      <class name="com.bitgo.BlockExplorerTest"/>
+    </classes>
+  </test>
+</suite>
