@@ -3,8 +3,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/shashankshampi/blockstream-ui-automation">
-    <img src="https://seeklogo.com/images/B/bitcoin-logo-BCFF2D1650-seeklogo.com.png" alt="Logo" width="100" height="100">
+  <a href="https://github.com/shashankshampi/bitcoin-block-explorer-test">
+    <img src="files/bitgo.jpg" alt="Logo" width="100" height="100">
   </a>
 
 <h3 align="center">Blockstream Explorer UI Automation</h3>
@@ -12,7 +12,7 @@
   <p align="center">
     UI Automation of Blockstream Bitcoin Explorer using Java, Selenium & TestNG
     <br />
-    <a href="https://github.com/shashankshampi/blockstream-ui-automation"><strong>Explore the Code »</strong></a>
+    <a href="https://github.com/shashankshampi/bitcoin-block-explorer-test"><strong>Explore the Code »</strong></a>
   </p>
 </div>
 
@@ -69,13 +69,14 @@ Make sure you have the following installed:
 ### Installation
 
 Clone the repository:
-
-git clone https://github.com/shashankshampi/blockstream-ui-automation
-cd blockstream-ui-automation
-
+```
+git clone https://github.com/shashankshampi/bitcoin-block-explorer-test
+cd bitcoin-block-explorer-test
+```
 Install dependencies and compile:
-
+```
 mvn clean compile
+```
 ---
 
 ## Usage
@@ -87,9 +88,9 @@ mvn test
 ```
 
 Test reports will be available at:
-
+```
 /test-output/ExtentReports/index.html
-
+```
 
 ### Test Case 1: Validate Transaction Header
 
@@ -107,11 +108,11 @@ Log Output:
 > ✅ Print hash for those with **1 input** and **2 outputs**
 
 Sample Output:
-
+```
 Transaction with 1 input and 2 outputs:
 Hash: a1b2c3d4e5...
 Hash: f6g7h8i9j0...
-
+```
 ---
 
 ## Validation
